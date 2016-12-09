@@ -1,0 +1,26 @@
+{
+    "name": "javiexin/jxtools",
+    "type": "phpbb-extension",
+    "description": "JavaScript utility library for phpBB",
+    "homepage": "",
+    "version": "1.0.0-dev",
+    "time": "2016-12-09",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Javier Lopez (javiexin)",
+            "email": "javiexin@gmail.com",
+            "homepage": "http://www.exincastillos.es/jxmods",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "JxTools",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.4"
+        }
+    }
+}
