@@ -1,7 +1,0 @@
-services:
-    javiexin.jxtools.listener:
-        class: javiexin\jxtools\event\main_listener
-        arguments:
-            - '@template'
-        tags:
-            - { name: event.listener }
